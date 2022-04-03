@@ -1,0 +1,142 @@
+{
+  "cmp": {
+    "location": "hrsh7th/nvim-cmp",
+    "branch": "main",
+    "commit_hash": "7dbe34e36d9de4912a5f3aa5279540445765814c",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "cmp_buffer": {
+    "location": "hrsh7th/cmp-buffer",
+    "branch": "main",
+    "commit_hash": "d66c4c2d376e5be99db68d2362cd94d250987525",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "cmp_luasnip": {
+    "location": "saadparwaiz1/cmp_luasnip",
+    "branch": "master",
+    "commit_hash": "b10829736542e7cc9291e60bab134df1273165c9",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "cmp_nvim_lsp": {
+    "location": "hrsh7th/cmp-nvim-lsp",
+    "branch": "main",
+    "commit_hash": "ebdfc204afb87f15ce3d3d3f5df0b8181443b5ba",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "cmp_path": {
+    "location": "hrsh7th/cmp-path",
+    "branch": "main",
+    "commit_hash": "466b6b8270f7ba89abd59f402c73f63c7331ff6e",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "impatient": {
+    "location": "lewis6991/impatient.nvim",
+    "branch": "main",
+    "commit_hash": "2337df7d778e17a58d8709f651653b9039946d8d",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "kanagawa": {
+    "location": "rebelot/kanagawa.nvim",
+    "branch": "master",
+    "commit_hash": "f5881a688b951cb35a7f36628b23ee4393d96daf",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "lspconfig": {
+    "location": "neovim/nvim-lspconfig",
+    "branch": "master",
+    "commit_hash": "3d1baa811b351078e5711be1a1158e33b074be9e",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "lua-dev": {
+    "location": "folke/lua-dev.nvim",
+    "branch": "main",
+    "commit_hash": "a0ee77789d9948adce64d98700cc90cecaef88d5",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "luasnip": {
+    "location": "L3MON4D3/LuaSnip",
+    "branch": "master",
+    "commit_hash": "eb5b77e7927e4b28800b4f40c5507d6396b7eeaf",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "mappy": {
+    "location": "shift-d/mappy.nvim",
+    "branch": "main",
+    "commit_hash": "9e6b7ab66881d62f1d4d6668ea395454a977fb9d",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "null-ls": {
+    "location": "jose-elias-alvarez/null-ls.nvim",
+    "branch": "main",
+    "commit_hash": "899785c17c8ec701efc618520edf46bc0f3f367b",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "nvim-treesitter": {
+    "location": "nvim-treesitter/nvim-treesitter",
+    "branch": "master",
+    "commit_hash": "d8c47332c47a74ac42d11b003599282fbc81c340",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "sidebar-nvim": {
+    "location": "sidebar-nvim/sidebar.nvim",
+    "branch": "main",
+    "commit_hash": "90123bf8d4255016f06ef0a5de0617da77b83fc8",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  }
+}

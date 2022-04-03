@@ -1,0 +1,25 @@
+{
+    "plugnplay": {},
+    "plugins": {
+        // Speed
+        "impatient": "gh:lewis6991/impatient.nvim",
+        // Colors
+        "nvim-treesitter": "gh:nvim-treesitter/nvim-treesitter",
+        "kanagawa": "gh:rebelot/kanagawa.nvim",
+        // Completion
+        "luasnip": "gh:L3MON4D3/LuaSnip",
+        "cmp": "gh:hrsh7th/nvim-cmp",
+        "cmp_luasnip": "gh:saadparwaiz1/cmp_luasnip",
+        "cmp_path": "gh:hrsh7th/cmp-path",
+        "cmp_buffer": "gh:hrsh7th/cmp-buffer",
+        "cmp_nvim_lsp": "gh:hrsh7th/cmp-nvim-lsp",
+        // LSP etc
+        "lspconfig": "gh:neovim/nvim-lspconfig",
+        "null-ls": "gh:jose-elias-alvarez/null-ls.nvim",
+        "lua-dev": "gh:folke/lua-dev.nvim",
+        // UI
+        "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
+        // Mappings
+        "mappy": "gh:shift-d/mappy.nvim"
+    }
+}
