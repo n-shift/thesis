@@ -69,6 +69,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "leap": {
+    "location": "ggandor/leap.nvim",
+    "branch": "main",
+    "commit_hash": "df770841885f22d4cc7265fa74290c5afe371591",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "lspconfig": {
     "location": "neovim/nvim-lspconfig",
     "branch": "master",

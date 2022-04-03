@@ -36,7 +36,7 @@ local function draw(ctx)
     local lines = {}
     for _, pid in ipairs(bufs) do
         local name = parse_buffer(pid, ctx.width - #tostring(pid) - 3)
-        if name ~= nil and name ~= "" then
+        if name ~= nil and name ~= "" and vim.fn.buflisted(pid) == 1 then
             table.insert(lines, string.format("%s %s", pid, name))
         end
     end

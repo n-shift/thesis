@@ -20,6 +20,7 @@
         // UI
         "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
         // Mappings
-        "mappy": "gh:shift-d/mappy.nvim"
+        "mappy": "gh:shift-d/mappy.nvim",
+        "leap": "gh:ggandor/leap.nvim"
     }
 }

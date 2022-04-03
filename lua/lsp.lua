@@ -28,6 +28,7 @@ configure("rust_analyzer", {})
 vim.cmd("packadd lua-dev")
 local setup = require("lua-dev").setup({
     lspconfig = {
+        cmd = { "lua-language-server", "-E", vim.fn.expand("~/.code/lua/lua-language-server/main.lua")},
         capabilities = capabilities,
         on_attach = attach,
     }

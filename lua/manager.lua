@@ -8,3 +8,4 @@ end
 
 require("manager.null")
 au("BufRead", "bufread")
+au("BufEnter", "bufenter")
