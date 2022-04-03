@@ -21,6 +21,8 @@
         "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
         // Mappings
         "mappy": "gh:shift-d/mappy.nvim",
-        "leap": "gh:ggandor/leap.nvim"
+        "leap": "gh:ggandor/leap.nvim",
+        // Neorg
+        "neorg": "gh:nvim-neorg/neorg"
     }
 }

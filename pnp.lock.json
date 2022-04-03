@@ -119,6 +119,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "neorg": {
+    "location": "nvim-neorg/neorg",
+    "branch": "main",
+    "commit_hash": "aec45ca94975c0072516523fec32d69044db36b6",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "null-ls": {
     "location": "jose-elias-alvarez/null-ls.nvim",
     "branch": "main",
