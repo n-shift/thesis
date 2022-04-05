@@ -17,9 +17,6 @@ end
 local function configure(client, tbl)
     local config = vim.tbl_deep_extend("force", {capabilities = capabilities, on_attach = attach}, tbl)
     require("lspconfig")[client].setup(config)
-    if vim.lsp.buf_get_clients(0) == {} then
-        vim.cmd("edit%")
-    end
 end
 
 -- Rust
@@ -34,3 +31,4 @@ local setup = require("lua-dev").setup({
     }
 })
 configure("sumneko_lua", setup)
+configure("texlab", {})

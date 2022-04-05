@@ -22,7 +22,13 @@
         // Mappings
         "mappy": "gh:shift-d/mappy.nvim",
         "leap": "gh:ggandor/leap.nvim",
-        // Neorg
-        "neorg": "gh:nvim-neorg/neorg"
+        // Markup
+        "neorg": "gh:nvim-neorg/neorg",
+        "vimtex": "gh:lervag/vimtex",
+        // Fuzzy
+        "telescope": "gh:nvim-telescope/telescope.nvim",
+
+        // Deps
+        "plenary": "gh:nvim-lua/plenary.nvim"
     }
 }

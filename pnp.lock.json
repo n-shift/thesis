@@ -149,10 +149,40 @@
     "lazy_load": null,
     "configuration": null
   },
+  "plenary": {
+    "location": "nvim-lua/plenary.nvim",
+    "branch": "master",
+    "commit_hash": "f9c65cd76ffa76a0818923c6bce5771687dfe64c",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "sidebar-nvim": {
     "location": "sidebar-nvim/sidebar.nvim",
     "branch": "main",
     "commit_hash": "90123bf8d4255016f06ef0a5de0617da77b83fc8",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "telescope": {
+    "location": "nvim-telescope/telescope.nvim",
+    "branch": "master",
+    "commit_hash": "6e7ee3829225d5c97c1ebfff686050142ffe5867",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
+  "vimtex": {
+    "location": "lervag/vimtex",
+    "branch": "master",
+    "commit_hash": "3c14f6912318ac3d92d32eca7d66c7c1c4f3e92c",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,

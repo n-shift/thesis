@@ -1,4 +1,5 @@
 local utils = require("utils")
+utils.enable("plenary")
 utils.cfg("luasnip")
 utils.cfg("cmp")
 utils.enable("cmp_luasnip")
