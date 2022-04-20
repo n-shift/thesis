@@ -5,9 +5,7 @@
 (("else"     @keyword) (#set! conceal "!"))
 (("elseif"   @keyword) (#set! conceal "¿"))
 (("function" @keyword) (#set! conceal "ﬦ"))
-(("then"     @keyword) (#set! conceal ""))
 (("for"      @keyword) (#set! conceal ""))
-(("end"      @keyword) (#set! conceal ""))
 
 ;; Function names
 ((function_call name: (identifier) @function (#eq? @function "require")) (#set! conceal ""))
