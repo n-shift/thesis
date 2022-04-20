@@ -169,6 +169,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "surround": {
+    "location": "ur4ltz/surround.nvim",
+    "branch": "master",
+    "commit_hash": "633068182cf894480341b992445f0f0d2883721d",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "telescope": {
     "location": "nvim-telescope/telescope.nvim",
     "branch": "master",

@@ -25,8 +25,9 @@
         // Markup
         "neorg": "gh:nvim-neorg/neorg",
         "vimtex": "gh:lervag/vimtex",
-        // Fuzzy
+        // Utils
         "telescope": "gh:nvim-telescope/telescope.nvim",
+        "surround": "gh:ur4ltz/surround.nvim",
 
         // Deps
         "plenary": "gh:nvim-lua/plenary.nvim"
