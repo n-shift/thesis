@@ -16,6 +16,10 @@ local template = [[
 \date{$2}
 \author{$3}
 
+%PACKAGES
+%% Layout
+\usepackage[a4paper]{geometry}
+
 % DOCUMENT
 \begin{document}
 \pagenumbering{gobble}
@@ -34,9 +38,12 @@ local ru_template = [[
 % METADATA
 \title{$1}
 \date{$2}
-\author{3}
+\author{$3}
 
 % PACKAGES
+%% Layout
+\usepackage[a4paper]{geometry}
+
 %% Russian language support
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -61,6 +68,14 @@ local env = [[
 \begin{$1}
     $0
 \end{$1}
+]]
+
+local section = [[
+\\$1section{$0}
+]]
+
+local newline = [[
+\newline$0
 ]]
 
 ls.add_snippets("all", {
@@ -89,4 +104,14 @@ ls.add_snippets("tex", {
         name = "Environment",
         dscr = "Encapsulate in env",
     }, env),
+    parse({
+        trig = "sec",
+        name = "Section",
+        dscr = "Create (sub)section",
+    }, section),
+    parse({
+        trig = "\\",
+        name = "Newline",
+        dscr = "Creates a better-looking newline instead of \\\\",
+    }, newline),
 })
