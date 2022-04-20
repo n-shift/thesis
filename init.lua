@@ -5,9 +5,9 @@ if vim.g.neovim == "minimal" or vim.o.diff then
     require("minimal.core")
     require("minimal.manager")
 else
-    require("default.caching")
+    require("caching")
     require("disable")
-    require("default.core")
-    require("default.manager")
-    require("default.lsp")
+    require("core")
+    require("manager")
+    require("lsp")
 end

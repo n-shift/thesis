@@ -1,2 +1,2 @@
 require("minimal.core.options")
-require("default.core.locale")
+require("core.locale")
