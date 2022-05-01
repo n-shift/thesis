@@ -129,6 +129,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "marks": {
+    "location": "chentau/marks.nvim",
+    "branch": "master",
+    "commit_hash": "8e80a20a170434bc77decc97bc4364c3ba848925",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "neorg": {
     "location": "nvim-neorg/neorg",
     "branch": "main",

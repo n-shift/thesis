@@ -20,6 +20,7 @@
         // UI
         "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
         "gitsigns": "gh:lewis6991/gitsigns.nvim",
+        "marks": "gh:chentau/marks.nvim",
         // Mappings
         "mappy": "gh:shift-d/mappy.nvim",
         "leap": "gh:ggandor/leap.nvim",
