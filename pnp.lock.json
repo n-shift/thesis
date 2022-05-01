@@ -49,6 +49,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "gitsigns": {
+    "location": "lewis6991/gitsigns.nvim",
+    "branch": "main",
+    "commit_hash": "b800663f4535838a819ac6d8396bd01b29332138",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "impatient": {
     "location": "lewis6991/impatient.nvim",
     "branch": "main",

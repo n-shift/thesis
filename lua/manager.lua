@@ -8,3 +8,4 @@ end
 
 require("manager.null")
 au("BufEnter", "bufenter")
+au("DirChanged", "dirchanged") vim.cmd("cd .")
