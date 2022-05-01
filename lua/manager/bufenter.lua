@@ -1,4 +1,7 @@
 local utils = require("utils")
+utils.cfg("nvim-treesitter")
+utils.cfg("kanagawa")
+utils.cfg("neorg")
 utils.cfg("leap")
 utils.cfg("telescope")
 utils.cfg("vimtex")

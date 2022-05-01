@@ -7,5 +7,4 @@ local function au(event, module)
 end
 
 require("manager.null")
-au("BufRead", "bufread")
 au("BufEnter", "bufenter")
