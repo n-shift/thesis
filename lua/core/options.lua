@@ -42,6 +42,8 @@ nvim.termguicolors = true
 nvim.cursorline = true
 nvim.signcolumn = "yes"
 nvim.guifont = "FiraCode NF:h10"
+nvim.list = true
+nvim.listchars = { tab = "->", lead = ".", trail = "~", extends = "&", nbsp = "N" }
 
 ---> misc
 nvim.wildignore = ".git,target"
