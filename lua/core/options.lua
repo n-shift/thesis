@@ -59,4 +59,7 @@ nvim.shellcmdflag = "-c"
 glob.mapleader = "\\.git,target"
 
 ---> Netrw config
-glob.netrw_banner = 0 -- Hide splash banner
+glob.netrw_banner = 0
+glob.netrw_browse_split = 4
+glob.netrw_winsize = 25
+glob.netrw_liststyle = 3
