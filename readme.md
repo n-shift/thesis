@@ -55,5 +55,5 @@ Welp, at first, I would like to tell what differs my config from others. I use [
  │  │  └── hello.lua
  │  └── utils.lua
  ├── pnp.lock.json
- └── readme.norg
+ └── readme.md
 ```
