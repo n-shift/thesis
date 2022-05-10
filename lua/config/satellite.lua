@@ -1,2 +1,1 @@
--- Disable until beta
--- require("satellite").setup()
+require("satellite").setup()

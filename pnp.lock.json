@@ -52,7 +52,7 @@
   "gitsigns": {
     "location": "lewis6991/gitsigns.nvim",
     "branch": "main",
-    "commit_hash": "b800663f4535838a819ac6d8396bd01b29332138",
+    "commit_hash": "aca84fd16ce129965d7c3c69de59f333d9da116c",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
