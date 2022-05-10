@@ -9,4 +9,16 @@ function utils.cfg(plugin)
     require("config."..plugin)
 end
 
+function utils.highlighter(group, colors, style)
+    if colors.bg ~= nil then
+        vim.cmd("highlight "..group.." guibg="..colors.bg)
+    end
+    if colors.fg ~= nil then
+        vim.cmd("highlight "..group.." guifg="..colors.fg)
+    end
+    if style ~= nil then
+        vim.cmd("highlight "..group.." gui="..style)
+    end
+end
+
 return utils
