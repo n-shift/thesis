@@ -21,6 +21,7 @@
         "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
         "gitsigns": "gh:lewis6991/gitsigns.nvim",
         "marks": "gh:chentau/marks.nvim",
+        "heirline": "gh:rebelot/heirline.nvim",
         // Mappings
         "mappy": "gh:shift-d/mappy.nvim",
         "leap": "gh:ggandor/leap.nvim",

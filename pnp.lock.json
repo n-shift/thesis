@@ -59,6 +59,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "heirline": {
+    "location": "rebelot/heirline.nvim",
+    "branch": "master",
+    "commit_hash": "88ff5ab8f6f653a9db363ad5233a4ca049271e2e",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "impatient": {
     "location": "lewis6991/impatient.nvim",
     "branch": "main",
