@@ -54,6 +54,10 @@ nvim.lazyredraw = true
 ---> shell
 nvim.shell = "nu"
 nvim.shellcmdflag = "-c"
+nvim.shellredir = "2>&1 | save --raw %s"
+nvim.shellpipe = "2>&1 | save --raw %s"
+nvim.shellquote = "\""
+nvim.shellxquote = ""
 
 --> Vim globals
 ---> <leader>
