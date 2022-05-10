@@ -84,10 +84,10 @@ local Diagnostics = {
     condition = conditions.has_diagnostics,
 
     static = {
-        error_icon = vim.fn.sign_getdefined("DiagnosticSignError")[1].text,
-        warn_icon = vim.fn.sign_getdefined("DiagnosticSignWarn")[1].text,
-        info_icon = vim.fn.sign_getdefined("DiagnosticSignInfo")[1].text,
-        hint_icon = vim.fn.sign_getdefined("DiagnosticSignHint")[1].text,
+        error_icon = "",
+        warn_icon = "!",
+        info_icon = "",
+        hint_icon = "",
     },
 
     init = function(self)
@@ -99,35 +99,35 @@ local Diagnostics = {
 
     {
         provider = left,
-        hl = { fg = colors.orange },
+        hl = { fg = colors.green },
     },
     {
         provider = function(self)
             return self.errors > 0 and (self.error_icon .. self.errors .. " ")
         end,
-        hl = { fg = colors.diag.error, bg = colors.orange },
+        hl = { fg = colors.diag.error, bg = colors.green },
     },
     {
         provider = function(self)
             return self.warnings > 0 and (self.warn_icon .. self.warnings .. " ")
         end,
-        hl = { fg = colors.diag.warn, bg = colors.orange },
+        hl = { fg = colors.diag.warn, bg = colors.green },
     },
     {
         provider = function(self)
             return self.info > 0 and (self.info_icon .. self.info .. " ")
         end,
-        hl = { fg = colors.diag.info, bg = colors.orange },
+        hl = { fg = colors.diag.info, bg = colors.green },
     },
     {
         provider = function(self)
             return self.hints > 0 and (self.hint_icon .. self.hints)
         end,
-        hl = { fg = colors.diag.hint, bg = colors.orange },
+        hl = { fg = colors.diag.hint, bg = colors.green },
     },
     {
         provider = right,
-        hl = { fg = colors.orange },
+        hl = { fg = colors.green },
     },
 }
 
@@ -144,10 +144,10 @@ local Git = {
         self.has_changes = self.status_dict.added ~= 0 or self.status_dict.removed ~= 0 or self.status_dict.changed ~= 0
     end,
 
-    hl = { bg = colors.orange, fg = colors.gray },
+    hl = { bg = colors.green, fg = colors.gray },
     {
         provider = left,
-        hl = { fg = colors.orange, bg = "NONE" },
+        hl = { fg = colors.green, bg = "NONE" },
     },
     {
         provider = function(self)
@@ -166,21 +166,18 @@ local Git = {
             local count = self.status_dict.added or 0
             return count > 0 and ("+" .. count)
         end,
-        hl = { fg = colors.git.add },
     },
     {
         provider = function(self)
             local count = self.status_dict.removed or 0
             return count > 0 and ("-" .. count)
         end,
-        hl = { fg = colors.git.del },
     },
     {
         provider = function(self)
             local count = self.status_dict.changed or 0
             return count > 0 and ("~" .. count)
         end,
-        hl = { fg = colors.git.change },
     },
     {
         condition = function(self)
@@ -190,7 +187,7 @@ local Git = {
     },
     {
         provider = right,
-        hl = { fg = colors.orange, bg = "NONE" },
+        hl = { fg = colors.green, bg = "NONE" },
     }
 }
 
