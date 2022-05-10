@@ -189,6 +189,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "satellite": {
+    "location": "lewis6991/satellite.nvim",
+    "branch": "main",
+    "commit_hash": "e8ece1c9e47cf4d0f2baa6ed3b8c014d5f0aa081",
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "sidebar-nvim": {
     "location": "sidebar-nvim/sidebar.nvim",
     "branch": "main",

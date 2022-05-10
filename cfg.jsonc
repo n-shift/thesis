@@ -22,6 +22,7 @@
         "gitsigns": "gh:lewis6991/gitsigns.nvim",
         "marks": "gh:chentau/marks.nvim",
         "heirline": "gh:rebelot/heirline.nvim",
+        "satellite": "gh:lewis6991/satellite.nvim",
         // Mappings
         "mappy": "gh:shift-d/mappy.nvim",
         "leap": "gh:ggandor/leap.nvim",
