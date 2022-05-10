@@ -19,6 +19,7 @@ nvim.splitright = true
 ---> completion
 nvim.pumheight = 10
 nvim.completeopt = "menuone,noselect"
+nvim.smartcase = true
 
 ---> numbers
 nvim.number = true
