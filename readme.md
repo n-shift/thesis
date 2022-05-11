@@ -1,4 +1,4 @@
-# My (not so) good configuration
+# thesis.nvim - my (not so) good configuration
 Welp, at first, I would like to tell what differs my config from others. I use [nvim-plugnplay](https://github.com/nvim-plugnplay/pnp-cli.git) plugin manager. It is in alpha stage, yet I'm testing it already. This config proves the fact that pnp is usable.
 
 ## Structure
@@ -68,11 +68,11 @@ Welp, at first, I would like to tell what differs my config from others. I use [
  Language            Files        Lines         Code     Comments       Blanks
 ===============================================================================
  JSON                    1          242          242            0            0
- Lua                    37          984          880           27           77
+ Lua                    37          986          882           27           77
  Markdown                1           78            0           77            1
  Scheme                  2           42           29            7            6
  Vim script              1           33           25            7            1
 ===============================================================================
- Total                  42         1379         1176          118           85
+ Total                  42         1381         1178          118           85
 ===============================================================================
 ```
