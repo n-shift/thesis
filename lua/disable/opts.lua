@@ -6,3 +6,4 @@ vim.opt.fillchars = { eob = " " }
 vim.opt.hlsearch = false
 vim.opt.ruler = false
 vim.opt.showmode = false
+vim.opt.showcmd = false
