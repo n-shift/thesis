@@ -34,24 +34,29 @@ Welp, at first, I would like to tell what differs my config from others. I use [
 │     │  └── providers.lua
 │     ├── lsp.lua
 │     ├── manager
-│     │  ├── bufenter.lua
-│     │  ├── dirchanged.lua
 │     │  ├── init.lua
-│     │  └── null.lua
+│     │  └── utils.lua
 │     ├── modules
 │     │  ├── colors
 │     │  │  ├── highlighter.lua
+│     │  │  ├── init.lua
 │     │  │  ├── kanagawa.lua
 │     │  │  └── nvim-treesitter.lua
 │     │  ├── completion
 │     │  │  ├── cmp.lua
+│     │  │  ├── init.lua
 │     │  │  └── luasnip.lua
 │     │  ├── mappings
+│     │  │  ├── init.lua
 │     │  │  └── mappy.lua
 │     │  ├── markup
+│     │  │  ├── init.lua
 │     │  │  ├── neorg.lua
 │     │  │  └── vimtex.lua
+│     │  ├── misc
+│     │  │  └── init.lua
 │     │  ├── navigation
+│     │  │  ├── init.lua
 │     │  │  ├── leap.lua
 │     │  │  ├── marks.lua
 │     │  │  ├── surround.lua
@@ -59,6 +64,7 @@ Welp, at first, I would like to tell what differs my config from others. I use [
 │     │  └── ui
 │     │     ├── gitsigns.lua
 │     │     ├── heirline.lua
+│     │     ├── init.lua
 │     │     ├── satellite.lua
 │     │     └── sidebar-nvim.lua
 │     ├── sections
@@ -75,11 +81,11 @@ Welp, at first, I would like to tell what differs my config from others. I use [
  Language            Files        Lines         Code     Comments       Blanks
 ===============================================================================
  JSON                    1          242          242            0            0
- Lua                    37          985          881           27           77
- Markdown                1           78            0           77            1
+ Lua                    42         1011          904           27           80
+ Markdown                1           85            0           84            1
  Scheme                  2           42           29            7            6
  Vim script              1           33           25            7            1
 ===============================================================================
- Total                  42         1380         1177          118           85
+ Total                  47         1413         1200          125           88
 ===============================================================================
 ```
