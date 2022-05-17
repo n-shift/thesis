@@ -6,7 +6,7 @@ end
 
 function utils.cfg(plugin)
     utils.enable(plugin)
-    require("config."..plugin)
+    require("thesis.config."..plugin)
 end
 
 function utils.highlighter(group, colors, style)

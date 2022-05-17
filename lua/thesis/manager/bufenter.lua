@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("thesis.utils")
 utils.cfg("nvim-treesitter")
 utils.cfg("kanagawa")
 utils.cfg("neorg")

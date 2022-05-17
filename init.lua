@@ -1,13 +1,13 @@
 --> Shift's neovim setup <--
 if vim.g.neovim == "minimal" or vim.o.diff then
-    require("disable.providers")
+    require("thesis.disable.providers")
     vim.g.load_plugins = false
-    require("minimal.core")
-    require("minimal.manager")
+    require("thesis.minimal.core")
+    require("thesis.minimal.manager")
 else
-    require("caching")
-    require("disable")
-    require("core")
-    require("manager")
-    require("lsp")
+    require("thesis.caching")
+    require("thesis.disable")
+    require("thesis.core")
+    require("thesis.manager")
+    require("thesis.lsp")
 end

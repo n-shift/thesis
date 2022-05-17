@@ -1,8 +1,8 @@
 require("sidebar-nvim").setup({
     sections = {
         -- Custom (sections...)
-        require("sections.hello"),
-        require("sections.buffers"),
+        require("thesis.sections.hello"),
+        require("thesis.sections.buffers"),
         -- Builtin
         "files", "symbols", "todos",
     },

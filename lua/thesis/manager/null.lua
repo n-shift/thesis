@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("thesis.utils")
 utils.enable("plenary")
 utils.cfg("luasnip")
 utils.cfg("cmp")
