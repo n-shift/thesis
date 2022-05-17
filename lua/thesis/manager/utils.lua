@@ -9,7 +9,11 @@ end
 
 function ManagerUtils.manage(category, config)
     for module, event in pairs(config) do
-        au(event, category, module)
+        if event == "NONE" then
+            require("thesis.modules."..category.."."..module)
+        else
+            au(event, category, module)
+        end
     end
 end
 

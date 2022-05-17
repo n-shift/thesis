@@ -1,6 +1,6 @@
 require("thesis.manager.utils").manage("completion", {
-    ["luasnip"] = "VimEnter",
-    ["cmp"] = "VimEnter",
+    ["luasnip"] = "NONE",
+    ["cmp"] = "NONE",
 })
 
 require("thesis.utils").enable("cmp_luasnip")
