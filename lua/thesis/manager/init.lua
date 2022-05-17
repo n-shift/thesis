@@ -1,11 +1,8 @@
 vim.api.nvim_create_augroup("Manager", {})
-local function au(event, module)
-    vim.api.nvim_create_autocmd(event, {
-        group = "Manager",
-        callback = function() require("thesis.manager."..module) end,
-    })
-end
-
-require("thesis.manager.null")
-au("BufEnter", "bufenter")
-au("DirChanged", "dirchanged") vim.cmd("cd .")
+require("thesis.modules.colors")
+require("thesis.modules.completion")
+require("thesis.modules.mappings")
+require("thesis.modules.markup")
+require("thesis.modules.misc")
+require("thesis.modules.navigation")
+require("thesis.modules.ui")
