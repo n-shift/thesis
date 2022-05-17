@@ -20,7 +20,7 @@
         // UI
         "sidebar-nvim": "gh:sidebar-nvim/sidebar.nvim",
         "gitsigns": "gh:lewis6991/gitsigns.nvim",
-        "marks": "gh:chentau/marks.nvim",
+        "marks": "gh:chentoast/marks.nvim",
         "heirline": "gh:rebelot/heirline.nvim",
         "satellite": "gh:lewis6991/satellite.nvim",
         // Mappings

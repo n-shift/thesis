@@ -2,7 +2,7 @@
   "cmp": {
     "location": "hrsh7th/nvim-cmp",
     "branch": "main",
-    "commit_hash": "7dbe34e36d9de4912a5f3aa5279540445765814c",
+    "commit_hash": "cd694b8944eb1ae98f1d0e01cf837e66b15c2857",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -12,7 +12,7 @@
   "cmp_buffer": {
     "location": "hrsh7th/cmp-buffer",
     "branch": "main",
-    "commit_hash": "d66c4c2d376e5be99db68d2362cd94d250987525",
+    "commit_hash": "12463cfcd9b14052f9effccbf1d84caa7a2d57f0",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -22,7 +22,7 @@
   "cmp_luasnip": {
     "location": "saadparwaiz1/cmp_luasnip",
     "branch": "master",
-    "commit_hash": "b10829736542e7cc9291e60bab134df1273165c9",
+    "commit_hash": "a9de941bcbda508d0a45d28ae366bb3f08db2e36",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -32,7 +32,7 @@
   "cmp_nvim_lsp": {
     "location": "hrsh7th/cmp-nvim-lsp",
     "branch": "main",
-    "commit_hash": "ebdfc204afb87f15ce3d3d3f5df0b8181443b5ba",
+    "commit_hash": "affe808a5c56b71630f17aa7c38e15c59fd648a8",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -52,7 +52,7 @@
   "gitsigns": {
     "location": "lewis6991/gitsigns.nvim",
     "branch": "main",
-    "commit_hash": "aca84fd16ce129965d7c3c69de59f333d9da116c",
+    "commit_hash": "ffd06e36f6067935d8cb9793905dd2e84e291310",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -62,7 +62,7 @@
   "heirline": {
     "location": "rebelot/heirline.nvim",
     "branch": "master",
-    "commit_hash": "88ff5ab8f6f653a9db363ad5233a4ca049271e2e",
+    "commit_hash": "b30a385588c1aac5728e6332897247cc32e94722",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -82,7 +82,7 @@
   "kanagawa": {
     "location": "rebelot/kanagawa.nvim",
     "branch": "master",
-    "commit_hash": "f5881a688b951cb35a7f36628b23ee4393d96daf",
+    "commit_hash": "50e7b43552072696d26757aff5f6307e2ab5e3ea",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -92,7 +92,7 @@
   "leap": {
     "location": "ggandor/leap.nvim",
     "branch": "main",
-    "commit_hash": "df770841885f22d4cc7265fa74290c5afe371591",
+    "commit_hash": "a9027d632d319f778fdd53c9804d3eef2cbaf12f",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -102,7 +102,7 @@
   "lspconfig": {
     "location": "neovim/nvim-lspconfig",
     "branch": "master",
-    "commit_hash": "3d1baa811b351078e5711be1a1158e33b074be9e",
+    "commit_hash": "629f45d7ea1b3407e7c9639a7c4c992b1cdfefee",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -112,7 +112,7 @@
   "lua-dev": {
     "location": "folke/lua-dev.nvim",
     "branch": "main",
-    "commit_hash": "a0ee77789d9948adce64d98700cc90cecaef88d5",
+    "commit_hash": "f5c31936fe06fcbeb59b98f69f74f9c2f91abaec",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -122,7 +122,7 @@
   "luasnip": {
     "location": "L3MON4D3/LuaSnip",
     "branch": "master",
-    "commit_hash": "eb5b77e7927e4b28800b4f40c5507d6396b7eeaf",
+    "commit_hash": "4c06eecc1d47b239de58989ed826c862a2680da7",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -140,9 +140,9 @@
     "configuration": null
   },
   "marks": {
-    "location": "chentau/marks.nvim",
+    "location": "chentoast/marks.nvim",
     "branch": "master",
-    "commit_hash": "8e80a20a170434bc77decc97bc4364c3ba848925",
+    "commit_hash": "56cfa45f9c20373ed90bc4271eae17ee0d452bae",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -152,7 +152,7 @@
   "neorg": {
     "location": "nvim-neorg/neorg",
     "branch": "main",
-    "commit_hash": "aec45ca94975c0072516523fec32d69044db36b6",
+    "commit_hash": "8d9381c50710888d7ed8f54a7c4b24a89fd4e05a",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -162,7 +162,7 @@
   "null-ls": {
     "location": "jose-elias-alvarez/null-ls.nvim",
     "branch": "main",
-    "commit_hash": "899785c17c8ec701efc618520edf46bc0f3f367b",
+    "commit_hash": "47e9164d497d5bc303d7c2b15258b81a8b470a48",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -172,7 +172,7 @@
   "nvim-treesitter": {
     "location": "nvim-treesitter/nvim-treesitter",
     "branch": "master",
-    "commit_hash": "d8c47332c47a74ac42d11b003599282fbc81c340",
+    "commit_hash": "c004155676180a683ad424fe57294923cdf702ee",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -182,7 +182,7 @@
   "plenary": {
     "location": "nvim-lua/plenary.nvim",
     "branch": "master",
-    "commit_hash": "f9c65cd76ffa76a0818923c6bce5771687dfe64c",
+    "commit_hash": "bbd13b1f150910b721880bef8601dfd41784b60d",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -192,7 +192,7 @@
   "satellite": {
     "location": "lewis6991/satellite.nvim",
     "branch": "main",
-    "commit_hash": "e8ece1c9e47cf4d0f2baa6ed3b8c014d5f0aa081",
+    "commit_hash": "d79f99810e09ca2e1f27c49d066655a5d1fe5654",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -222,7 +222,7 @@
   "telescope": {
     "location": "nvim-telescope/telescope.nvim",
     "branch": "master",
-    "commit_hash": "6e7ee3829225d5c97c1ebfff686050142ffe5867",
+    "commit_hash": "01fc5a9274b553937bae3910e520732eb0a49bc6",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
@@ -232,7 +232,7 @@
   "vimtex": {
     "location": "lervag/vimtex",
     "branch": "master",
-    "commit_hash": "3c14f6912318ac3d92d32eca7d66c7c1c4f3e92c",
+    "commit_hash": "dfaca59bbbf0079ab1b4f159337ae7f17d1b5289",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,
