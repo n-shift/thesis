@@ -16,48 +16,55 @@ Welp, at first, I would like to tell what differs my config from others. I use [
 ├── init.lua
 ├── license
 ├── lua
-│  ├── caching.lua
-│  ├── config
-│  │  ├── cmp.lua
-│  │  ├── gitsigns.lua
-│  │  ├── heirline.lua
-│  │  ├── highlighter.lua
-│  │  ├── kanagawa.lua
-│  │  ├── leap.lua
-│  │  ├── luasnip.lua
-│  │  ├── mappy.lua
-│  │  ├── marks.lua
-│  │  ├── neorg.lua
-│  │  ├── nvim-treesitter.lua
-│  │  ├── satellite.lua
-│  │  ├── sidebar-nvim.lua
-│  │  ├── surround.lua
-│  │  ├── telescope.lua
-│  │  └── vimtex.lua
-│  ├── core
-│  │  ├── init.lua
-│  │  ├── locale.lua
-│  │  └── options.lua
-│  ├── disable
-│  │  ├── init.lua
-│  │  ├── opts.lua
-│  │  ├── plugins.lua
-│  │  └── providers.lua
-│  ├── lsp.lua
-│  ├── manager
-│  │  ├── bufenter.lua
-│  │  ├── dirchanged.lua
-│  │  ├── init.lua
-│  │  └── null.lua
 │  ├── minimal
 │  │  ├── core
 │  │  │  └── options.lua
 │  │  ├── core.lua
 │  │  └── manager.lua
-│  ├── sections
-│  │  ├── buffers.lua
-│  │  └── hello.lua
-│  └── utils.lua
+│  └── thesis
+│     ├── caching.lua
+│     ├── core
+│     │  ├── init.lua
+│     │  ├── locale.lua
+│     │  └── options.lua
+│     ├── disable
+│     │  ├── init.lua
+│     │  ├── opts.lua
+│     │  ├── plugins.lua
+│     │  └── providers.lua
+│     ├── lsp.lua
+│     ├── manager
+│     │  ├── bufenter.lua
+│     │  ├── dirchanged.lua
+│     │  ├── init.lua
+│     │  └── null.lua
+│     ├── modules
+│     │  ├── colors
+│     │  │  ├── highlighter.lua
+│     │  │  ├── kanagawa.lua
+│     │  │  └── nvim-treesitter.lua
+│     │  ├── completion
+│     │  │  ├── cmp.lua
+│     │  │  └── luasnip.lua
+│     │  ├── mappings
+│     │  │  └── mappy.lua
+│     │  ├── markup
+│     │  │  ├── neorg.lua
+│     │  │  └── vimtex.lua
+│     │  ├── navigation
+│     │  │  ├── leap.lua
+│     │  │  ├── marks.lua
+│     │  │  ├── surround.lua
+│     │  │  └── telescope.lua
+│     │  └── ui
+│     │     ├── gitsigns.lua
+│     │     ├── heirline.lua
+│     │     ├── satellite.lua
+│     │     └── sidebar-nvim.lua
+│     ├── sections
+│     │  ├── buffers.lua
+│     │  └── hello.lua
+│     └── utils.lua
 ├── pnp.lock.json
 ├── readme.md
 └── readme.vim
@@ -68,11 +75,11 @@ Welp, at first, I would like to tell what differs my config from others. I use [
  Language            Files        Lines         Code     Comments       Blanks
 ===============================================================================
  JSON                    1          242          242            0            0
- Lua                    37          986          882           27           77
+ Lua                    37          985          881           27           77
  Markdown                1           78            0           77            1
  Scheme                  2           42           29            7            6
  Vim script              1           33           25            7            1
 ===============================================================================
- Total                  42         1381         1178          118           85
+ Total                  42         1380         1177          118           85
 ===============================================================================
 ```
