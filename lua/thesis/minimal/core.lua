@@ -1,2 +1,2 @@
-require("minimal.core.options")
-require("core.locale")
+require("thesis.minimal.core.options")
+require("thesis.core.locale")
