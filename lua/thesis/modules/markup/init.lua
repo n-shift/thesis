@@ -1,4 +1,4 @@
 require("thesis.manager.utils").manage("markup", {
-    ["neorg"] = "BufEnter",
-    ["vimtex"] = "BufEnter",
+    ["neorg"] = "NONE",
+    ["vimtex"] = "FileType tex",
 })
