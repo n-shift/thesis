@@ -172,7 +172,7 @@
   "nvim-treesitter": {
     "location": "nvim-treesitter/nvim-treesitter",
     "branch": "master",
-    "commit_hash": "c004155676180a683ad424fe57294923cdf702ee",
+    "commit_hash": "29b0ea8093c49fe1ae639f41279f23a1a95f5cf0",
     "pinned_commit_hash": null,
     "pin": false,
     "version": null,

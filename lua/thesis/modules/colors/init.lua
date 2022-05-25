@@ -1,5 +1,5 @@
 require("thesis.manager.utils").manage("colors", {
-    ["highlighter"] = "BufEnter",
+    ["highlighter!"] = "BufEnter",
     ["nvim-treesitter"] = "BufEnter",
     ["kanagawa"] = "BufEnter",
 })

@@ -1,20 +1,30 @@
 local ManagerUtils = {}
 
+local group_id
+
 local function au(event, category, module)
     vim.api.nvim_create_autocmd(event, {
-        group = "Manager",
+        group = group_id,
         callback = function() require("thesis.modules."..category.."."..module) end,
     })
 end
 
 function ManagerUtils.manage(category, config)
-    for module, event in pairs(config) do
+    for mod, event in pairs(config) do
+        local module = mod:gsub("!", "")
+        if mod == module then
+            vim.cmd("packadd "..module)
+        end
         if event == "NONE" then
             require("thesis.modules."..category.."."..module)
         else
             au(event, category, module)
         end
     end
+end
+
+function ManagerUtils.setup(id)
+    group_id = id
 end
 
 return ManagerUtils
