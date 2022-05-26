@@ -32,7 +32,6 @@ Welp, at first, I would like to tell what differs my config from others. I use [
 │     │  ├── opts.lua
 │     │  ├── plugins.lua
 │     │  └── providers.lua
-│     ├── lsp.lua
 │     ├── manager
 │     │  ├── init.lua
 │     │  └── utils.lua
@@ -46,6 +45,12 @@ Welp, at first, I would like to tell what differs my config from others. I use [
 │     │  │  ├── cmp.lua
 │     │  │  ├── init.lua
 │     │  │  └── luasnip.lua
+│     │  ├── lsp
+│     │  │  ├── init.lua
+│     │  │  ├── lua.lua
+│     │  │  ├── rust.lua
+│     │  │  ├── state.lua
+│     │  │  └── tex.lua
 │     │  ├── mappings
 │     │  │  ├── init.lua
 │     │  │  └── mappy.lua
@@ -81,11 +86,11 @@ Welp, at first, I would like to tell what differs my config from others. I use [
  Language            Files        Lines         Code     Comments       Blanks
 ===============================================================================
  JSON                    1          242          242            0            0
- Lua                    42         1011          904           27           80
- Markdown                1           85            0           84            1
+ Lua                    46         1040          931           25           84
+ Markdown                1           91            0           90            1
  Scheme                  2           42           29            7            6
  Vim script              1           33           25            7            1
 ===============================================================================
- Total                  47         1413         1200          125           88
+ Total                  51         1448         1227          129           92
 ===============================================================================
 ```
