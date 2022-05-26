@@ -3,7 +3,9 @@ local ManagerUtils = {}
 local group_id
 
 local function au(event, category, module)
-    vim.api.nvim_create_autocmd(event, {
+    event = vim.split(event, ":")
+    vim.api.nvim_create_autocmd(event[1], {
+        pattern = event[2],
         group = group_id,
         callback = function() require("thesis.modules."..category.."."..module) end,
     })

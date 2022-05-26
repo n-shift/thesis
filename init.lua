@@ -9,5 +9,4 @@ else
     require("thesis.disable")
     require("thesis.core")
     require("thesis.manager")
-    require("thesis.lsp")
 end

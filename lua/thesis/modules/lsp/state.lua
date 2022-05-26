@@ -1,4 +1,11 @@
+local State = {
+    sumneko_lua = false,
+    texlab = false,
+    rust_analyzer = false,
+}
+
 vim.cmd("packadd lspconfig")
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
 local function attach(_, bufnr)
@@ -14,21 +21,12 @@ local function attach(_, bufnr)
     nmap("<leader>Q", vim.diagnostic.setqflist)
 end
 
-local function configure(client, tbl)
-    local config = vim.tbl_deep_extend("force", {capabilities = capabilities, on_attach = attach}, tbl)
-    require("lspconfig")[client].setup(config)
+function State.fire_up(server, config, cb)
+    if not State[server] then
+        config = vim.tbl_deep_extend("force", {capabilities = capabilities, on_attach = attach}, config)
+        require("lspconfig")[server].setup(config)
+        State[server] = true
+    end
 end
 
--- Rust
-configure("rust_analyzer", {})
--- Lua
-vim.cmd("packadd lua-dev")
-local setup = require("lua-dev").setup({
-    lspconfig = {
-        cmd = { "lua-language-server", "-E", vim.fn.expand("~/.code/lua/lua-language-server/main.lua")},
-        capabilities = capabilities,
-        on_attach = attach,
-    }
-})
-configure("sumneko_lua", setup)
-configure("texlab", {})
+return State
