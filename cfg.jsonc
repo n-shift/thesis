@@ -34,6 +34,9 @@
         "surround": "gh:ur4ltz/surround.nvim",
 
         // Deps
-        "plenary": "gh:nvim-lua/plenary.nvim"
+        "plenary": "gh:nvim-lua/plenary.nvim",
+
+        // local plugins for testing
+        "colortils": "loc:~/.code/lua/colortils.nvim"
     }
 }

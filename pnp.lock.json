@@ -49,6 +49,16 @@
     "lazy_load": null,
     "configuration": null
   },
+  "colortils": {
+    "location": "~/.code/lua/colortils.nvim",
+    "branch": null,
+    "commit_hash": null,
+    "pinned_commit_hash": null,
+    "pin": false,
+    "version": null,
+    "lazy_load": null,
+    "configuration": null
+  },
   "gitsigns": {
     "location": "lewis6991/gitsigns.nvim",
     "branch": "main",

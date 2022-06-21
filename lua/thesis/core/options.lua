@@ -56,12 +56,12 @@ nvim.shell = "nu"
 nvim.shellcmdflag = "-c"
 nvim.shellredir = "2>&1 | save --raw %s"
 nvim.shellpipe = "2>&1 | save --raw %s"
-nvim.shellquote = "\""
+nvim.shellquote = ""
 nvim.shellxquote = ""
 
 --> Vim globals
 ---> <leader>
-glob.mapleader = "\\.git,target"
+glob.mapleader = ","
 
 ---> Netrw config
 glob.netrw_banner = 0
